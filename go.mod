@@ -3,6 +3,7 @@ module Outlet
 go 1.17
 
 require (
+	github.com/go-playground/assert v1.2.1
 	github.com/lithammer/shortuuid v3.0.0+incompatible
 	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29
 	gorm.io/gorm v1.23.3
