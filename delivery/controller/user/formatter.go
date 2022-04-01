@@ -7,7 +7,7 @@ type CreateUserRequestFormat struct {
 	User_uid string
 	Email    string `json:"email" form:"email" validate:"required,email"`
 	Password string `json:"password" form:"password" validate:"required,min=3,max=15"`
-	Image    string `json:"image" form:"image"`
+	// Image    string `json:"image" form:"image"`
 }
 
 // =========== RESPONSE ============ //
@@ -17,5 +17,5 @@ type UserCreateResponse struct {
 	Name     string `json:"name"`
 	Email    string `json:"email"`
 	Roles    bool   `json:"roles" form:"roles"`
-	Image    string `json:"image" form:"image"`
+	// Image    string `json:"image" form:"image"`
 }
